@@ -1,3 +1,4 @@
-const message = "hello from small-search-engine";
+export * from "./functions/search";
+export * from "./functions/create-index";
 
-console.log(message);
+export * from "./types";
