@@ -1,0 +1,24 @@
+{
+  "name": "small-search-engine",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc && tsc-alias",
+    "prebuild": "rimraf dist",
+    "run:examples": "tsx examples/index.ts"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
